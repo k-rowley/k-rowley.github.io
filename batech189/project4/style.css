@@ -1,0 +1,70 @@
+body {
+    background-color: #e3e3e3;
+    color: darkslategrey;
+    margin: 0;
+}
+nav {
+    margin: 0;
+    background-color: #f2ebd7;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding: 10px 20px;
+    font-size: 1.4em;
+}
+ul {
+    list-style-type:none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+li {
+    display: inline;
+    font-size: 1.5em;
+}
+li a {
+    text-decoration: none;
+    color: saddlebrown;
+    padding: 10px 40px;
+    line-height: 55px;
+}
+
+a:hover {
+    color: rgb(23, 162, 82);
+    background-color: #f0eaf4;
+    border-top: dotted 1px black;
+    border-bottom: dotted 1px black;
+}
+a:active {
+    color: red;
+    background-color: #faf8bd;
+}
+
+img {
+    border: solid 3px darkgrey;
+}
+h1 {
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 4em;
+}
+h2 {
+    font-size: 2.5em;
+    border-bottom: solid 1px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+section {
+    margin: 10px 50px;
+    border: 3px solid #808080;
+    padding: 5% 10% 2%;
+    background-color: #fdfaf5;
+    box-shadow: 3px 4px 25px darkgrey;
+}
+section p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.9em;
+}
+footer {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: small;
+}
