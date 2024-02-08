@@ -1,34 +1,65 @@
 
 body {
-                font-family: "Montserrat", sans-serif;
-                font-optical-sizing: auto;
-                font-weight: <weight>;
-                font-style: normal;
-                margin: 25px 40px;
-            }
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin: 0;
+}
+
+#container {
+    margin: 25px 40px;
+}
             
-            header {
-                max-width: 600px;
-                border: 1px solid black;
-                border-radius: 10px;
-                padding: 0 20px;
-            }
+header {
+    max-width: 600px;
+    border: 1px solid black;
+    border-radius: 0 0 35px 0;
+    padding: 0 40px;
+}
             
-            h1, h2, h3 {
-                font-family: "Protest Strike", sans-serif;
-                font-weight: 400;
-                font-style: normal;
-            }
+h1, h2, h3 {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}          
             
+img {
+    border: 1px solid black;
+}
             
-            img {
-                border: 1px solid black;
-            }
-            
-            cite {
-                font-size: small;
-            }
+cite {
+    font-size: small;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #B8F6F3;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 5px 20px 5px 0;
+}
 
 ul {
-    list-style-type: none;
+    
+}
+
+a {
+    color: #333;
+    height: 100%;
+    border-bottom: 1px solid rgb(255, 161, 161);
+    text-decoration: none;
+    
+}
+a:hover {
+    color:red;
+    background-color: white;
+    border-bottom: 1px solid red;
 }
