@@ -13,33 +13,51 @@ body {
   font-family: 'Anek Latin', sans-serif;
 }
 
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 .topnav li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0 20px;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: black;
-   position: fixed;
-   left: 0;
-   top: 0;
-   width: 100%;
-  text-align: auto;
-  text-decoration: none;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    margin: 0;
 }
 
 .topnav a {
-  float: left;
-  text-decoration: none;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    padding: 0 60px 15px 60px;
+    margin: 0;
 }
 
 .topnav a:hover {
-  background-color: #D16F66;
-  color: black;
-  height: 100%;
-  /*padding: 0 100%;*/
+    background-color: #5A49E4;
+    color: white;
+    height: 100%;
+    /*padding: 0 100%;*/
+}
+
+nav a.active {
+    border-bottom: 3px solid #D16F66;
 }
 
 .topnav img {
@@ -49,11 +67,13 @@ body {
 h1 {
   font-family: 'Source Sans 3', sans-serif;
   color: #785EFF;
+    font-size: 2.2em;
 }
 
 h2 {
   font-family: 'Raleway', sans-serif;
-  color: #D16F66
+  color: #D16F66;
+    font-size: 1.8em;
 }
 
 img:not(.logo) {
