@@ -9,6 +9,7 @@ body {
 
 #container {
     margin: 25px 40px;
+    
 }
             
 header {
@@ -32,6 +33,10 @@ img {
             
 cite {
     font-size: small;
+}
+
+em {
+    font-weight: bold;
 }
 
 nav {
@@ -80,3 +85,10 @@ a:hover {
     background-color: white;
     border-bottom: 2px solid red;
 }
+
+footer {
+    border-top: 1px solid black;
+    margin: 0 40px;
+    padding: 0;
+}
+

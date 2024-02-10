@@ -19,18 +19,71 @@
     <header>
         
         <h1>Welcome to Keith's GitHub Home</h1>
-        <img src="images/1%20A%20class%20full%20of%20robot%20students%20painting%20fine%20art%20with%20paintbrushes%20on%20canvas.jpeg" alt="AI painting" width="333px"><br>
-        <cite>Image by <a href="https://nightcafe.studio/" target="_blank">NightCafe</a>, via prompt by Keith Rowley</cite>
-        <p>I'm hosted with <a href="https://pages.GitHub.com/" target="_blank">GitHub Pages</a>.</p>
+        <img class="mySlides" src="images/8-me-Zoomclass-Matrified.jpg">
+
+        <img class="mySlides" src="images/1-A-class-full-of-robot-students-painting-fine-art-with-paintbrushes-on-canvas-333.jpeg" alt="AI painting">
+        <img class="mySlides" src="images/me-binaryblue-2-333.jpeg" alt="Keith in Binary Blue">
+        <img class="mySlides" src="images/7-winnie-the-pooh-rendered-in-ghostly-hexadecima-%20codes-living-in-The-Matrix-333.jpg" alt="Winnie the Pooh in the Matrix">
+
+        <img class="mySlides" src="images/Spock-in-the Matrix-ArtAIJB-333.jpg" alt="Spock in the Matrix">
+        <br>
+        
+        <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+        
     </header>
     
 <div id="container">
     
     <h2><time datetime="2024-02-08">Thursday, Feb 8, 2024</time></h2>
-    <p>I just got started here at GitHub mainly because I teach HTML/CSS and am looking for a web hosting platform to publish student work. Over the past year, I've gone from using free web hosts such as <a href="https://fastcomet.com/" target="_blank">FastComet</a> to using the online IDE <a href="https://replit.com/" target="_blank">Replit</a>. But it appears that Replit has now made their hosting a paid service.</p>
+    
+    <p>I just got started here at GitHub mainly because I teach HTML/CSS and am looking for a web hosting platform to publish student work. Over years and years of teaching computers, I've learned that file management is one of the most challenging skills and concepts for computer users to master. And managing web files is critical to successful web development. Over the past year, I've gone from using free web hosts such as <a href="https://fastcomet.com/" target="_blank">FastComet</a> and <a href="https://awardspace.com/" target="_blank">AwardSpace</a> to using the online IDE <a href="https://replit.com/" target="_blank">Replit</a>. But it appears that Replit has now made their hosting a paid service.</p>
+    
     <p>Then last week, I had a student submit their work with a GitHub URL, and that's when I realized that GitHub is not just for hosting application development projects, but also HTML/CSS projects.</p>
-    <p>I like the <a href="https://desktop.GitHub.com/" target="_blank">GitHub Desktop app</a>, which is kind of like an FTP program, which uploads one's local code to one's GitHub repository. It's actually easier to use than an FTP program, because it really just syncs local changes with the repository, and one doesn't have to make sure to *manually* upload locally-edited files -- the Desktop app keeps track of locally-changed files and then uploads those upon command.</p>
+    
+    <p>I like the <a href="https://desktop.GitHub.com/" target="_blank">GitHub Desktop app</a>, which helps web developers with their file management. GHD is kind of like an FTP program, which uploads one's local code to one's GitHub repository, but it's considerably easier to use than an FTP program, because it syncs local file changes with the repository, and one doesn't have to make sure to *manually* upload locally-edited files -- the Desktop app keeps track of locally-changed files and then uploads those upon command.</p>
+    
+</div>
+    
+<footer>
+    <h2>Resources</h2>
+    
+    <h3>Images</h3>
+        <ul>
+            <li><cite>"Robots Painting" by Keith Rowley and <a href="https://nightcafe.studio/" target="_blank">NightCafe</a></cite></li>
+            <li><cite>"Winnie the Pooh in a Matrix forest" by Keith Rowley and <a href="https://nightcafe.studio/" target="_blank">NightCafe</a></cite></li>
+            <li><cite><a href="https://creator.nightcafe.studio/creation/QUFc5rKYSsDErBxQ0FFc" target="_blank"> "live long and prosper"</a> by ArtAIJB</cite></li>
+            <li><cite>Images of Keith by Keith</cite></li>
+        </ul>
+    
+    <h3>Hosting</h3>
+        <ul>
+            <li><cite>I'm hosted with <a href="https://pages.GitHub.com/" target="_blank">GitHub Pages</a>.</cite></li>
+        </ul>
+
+    <h3>Fonts</h3>
+        <ul>
+            <li><cite>Headings: <em><a href="https://fonts.google.com/specimen/Protest+Strike" target="_blank">Protest Strike</a></em>, by Google Fonts</cite></li>
+            <li><cite>Body: <em><a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Montserrat</a></em>, by Google Fonts</cite></li>
+        </ul> 
+    <hr> 
+    <p>&copy;2024 Keith Rowley</p>
+</footer>
         
-    </div>
+    
 </body>
 </html
