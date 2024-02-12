@@ -9,11 +9,12 @@ body {
 
 #container {
     margin: 25px 40px;
+    max-width: 450px;
     
 }
             
 header {
-    max-width: 600px;
+    max-width: 440px;
     border-style: solid;
     border-width: 0px 1px 1px 0px;
     border-radius: 0 0px 35px 0;
@@ -90,5 +91,6 @@ footer {
     border-top: 1px solid black;
     margin: 0 40px;
     padding: 0;
+    max-width: 450px;
 }
 
