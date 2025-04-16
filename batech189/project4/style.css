@@ -10,7 +10,7 @@ nav {
     border-top: solid 1px;
     border-bottom: solid 1px;
     padding: 10px 20px;
-    font-size: 1.4em;
+    font-size: 1.3em;
     flex: auto;
 }
 ul {
@@ -30,11 +30,21 @@ li a {
     line-height: 55px;
 }
 
+.link-current-page {
+    background-color: #e3e3e3;
+    border-top: dotted 1px black;
+    border-bottom: dotted 1px black;
+    padding: 10px 0px;
+    line-height: 55px;
+    font-weight: 700;
+}
+
 a:hover {
     color: rgb(23, 162, 82);
     background-color: #f0eaf4;
     border-top: dotted 1px black;
     border-bottom: dotted 1px black;
+    font-weight: 700;
 }
 a:active {
     color: red;
