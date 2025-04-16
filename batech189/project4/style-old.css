@@ -10,7 +10,6 @@ nav {
     border-bottom: solid 1px;
     padding: 10px 20px;
     font-size: 1.4em;
-    flex: auto;
 }
 ul {
     list-style-type:none;
@@ -42,8 +41,6 @@ a:active {
 
 img {
     border: solid 3px darkgrey;
-    float: left;
-    margin: 0 10px 10px 0;
 }
 h1 {
     text-align: center;
