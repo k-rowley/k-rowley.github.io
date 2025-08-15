@@ -1,13 +1,29 @@
+/* Custom CSS Properties (variables) */
+:root {
+    --background: #fdfaf5;
+    --paper: #e3e3e3;
+    --ink: #125d66;
+    --ink-2: #0e3d43;
+    --text: darkslategrey;
+    --muted: #6b7280;
+    --rule: #719595;
+    --link: saddlebrown;
+    --link-hover: rgb(23, 162, 82);
+    --nav-active-background: var(--link-hover);
+    --nav-active-text: white;
+}
+
+/* Main Styles */
 body {
-    background-color: #e3e3e3;
-    color: darkslategrey;
+    background-color: var(--paper);
+    color: var(--text);
     margin: 35px auto;
     max-width: 60em;
 }
 nav {
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: "Ibarra Real Nova", serif;
     margin: 0;
-    background-color: #f2ebd7;
+    background-color: var(--background);
     border-top: solid 1px;
     border-bottom: solid 1px;
     padding: 3px 20px;
@@ -20,7 +36,7 @@ nav a {
     display: inline;
 }
 ul {
-    list-style-type:none;
+    list-style-type: none;
     padding: 4px;
     margin: 0;
     text-align: center;
@@ -29,25 +45,16 @@ li {
     display: inline;
 }
 
-.link-current-page {
-    background-color: #e3e3e3;
-    border-top: dotted 1px black;
-    border-bottom: dotted 1px black;
-    padding: 10px 0;
-    line-height: 42px;
-    font-weight: 700;
-}
-
 li a {
     text-decoration: none;
-    color: saddlebrown;
+    color: var(--link);
     padding: 4px 40px;
     line-height: 42px;
 }
 
 a:hover {
-    color: rgb(23, 162, 82);
-    background-color: #f0eaf4;
+    color: var(--link-hover);
+    background-color: var(--background);
     border-top: dotted 1px black;
     border-bottom: dotted 1px black;
     /*font-weight: 700;*/
@@ -57,32 +64,42 @@ a:active {
     background-color: #faf8bd;
 }
 
+.link-current-page {
+    background-color: var(--paper);
+    color: var(--paper);
+    border-top: dotted 1px var(--rule);
+    border-bottom: dotted 1px var(--rule);
+    padding: 10px 0;
+    line-height: 42px;
+    font-weight: 700;
+}
+
 img {
-    border: solid 3px darkgrey;
+    border: solid 3px var(--rule);
     float: left;
     margin: 0 10px 10px 0;
 }
 
 .clearfix {
-  clear: both; /* Clears floats on both sides */
+    clear: both; /* Clears floats on both sides */
 }
 
 h1 {
     text-align: center;
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: "Ibarra Real Nova", serif;
     font-size: 4em;
 }
 h2 {
     font-size: 2.5em;
-    border-bottom: solid 1px;
-    font-family: 'Ibarra Real Nova', serif;
+    border-bottom: solid 1px var(--rule);
+    font-family: "Ibarra Real Nova", serif;
 }
 section {
     margin: 10px 50px;
-    border: 3px solid #808080;
+    border: 3px solid var(--rule);
     padding: 5% 10% 2%;
-    background-color: #fdfaf5;
-    box-shadow: 3px 4px 25px darkgrey;
+    background-color: var(--background);
+    box-shadow: 3px 4px 25px var(--rule);
 }
 section p:first-of-type::first-letter {
     /*float: left;*/
@@ -93,12 +110,12 @@ section p:first-of-type::first-letter {
 /*.dropcap::first-letter {
 }*/
 section p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 0.9em;
     line-height: 1.5em;
 }
 footer {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     font-size: small;
 }
