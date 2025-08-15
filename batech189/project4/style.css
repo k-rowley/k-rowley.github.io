@@ -138,6 +138,11 @@ section p {
     font-size: 0.9em;
     line-height: 1.5em;
 }
+
+.bottom-nav {
+    margin: 33px auto ;
+}
+
 footer {
     font-family: "Montserrat", sans-serif;
     text-align: center;
