@@ -141,7 +141,8 @@ section p {
 
 .centered {
     text-align: center;
-    font-size: larger
+    font-size: larger;
+    
 }
 
 .bottom-nav {
