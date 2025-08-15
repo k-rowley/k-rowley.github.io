@@ -6,7 +6,7 @@
     --ink-2: #0e3d43;
     --text: darkslategrey;
     --muted: #6b7280;
-    --rule: #719595;
+    --rule: #C2B280;
     --link: saddlebrown;
     --link-hover: rgb(23, 162, 82);
     --nav-active-background: var(--link-hover);
@@ -91,9 +91,31 @@ h1 {
 }
 h2 {
     font-size: 2.5em;
-    border-bottom: solid 1px var(--rule);
     font-family: "Ibarra Real Nova", serif;
+    padding: 0;
+    margin: 0;
 }
+
+.header-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0;
+    color: var(--rule);
+}
+
+.header-divider::before,
+.header-divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid var(--rule);
+}
+.header-divider span {
+    padding: 1em 0.5em;
+    font-size: 0.8em;
+    color: var(--rule);
+}
+
 section {
     margin: 10px 50px;
     border: 3px solid var(--rule);
@@ -101,6 +123,8 @@ section {
     background-color: var(--background);
     box-shadow: 3px 4px 25px var(--rule);
 }
+
+/* Dropcap */
 section p:first-of-type::first-letter {
     /*float: left;*/
     font-size: 2em;
