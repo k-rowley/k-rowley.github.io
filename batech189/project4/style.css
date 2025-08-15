@@ -15,6 +15,7 @@
 
 /* Main Styles */
 body {
+    font-family: "Montserrat", sans-serif;
     background-color: var(--paper);
     color: var(--text);
     margin: 35px auto;
@@ -26,7 +27,7 @@ nav {
     background-color: var(--background);
     border-top: solid 1px;
     border-bottom: solid 1px;
-    padding: 3px 20px;
+    padding: 3px 10px;
     font-size: 1.2em;
     flex: auto;
     /*position: fixed;
@@ -37,7 +38,7 @@ nav a {
 }
 ul {
     list-style-type: none;
-    padding: 4px;
+    padding: 2px;
     margin: 0;
     text-align: center;
 }
@@ -48,8 +49,8 @@ li {
 li a {
     text-decoration: none;
     color: var(--link);
-    padding: 4px 40px;
-    line-height: 42px;
+    padding: 2px 40px;
+    line-height: 1em;
 }
 
 a:hover {
@@ -134,7 +135,6 @@ section p:first-of-type::first-letter {
 /*.dropcap::first-letter {
 }*/
 section p {
-    font-family: "Montserrat", sans-serif;
     font-size: 0.9em;
     line-height: 1.5em;
 }
