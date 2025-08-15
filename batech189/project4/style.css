@@ -139,6 +139,11 @@ section p {
     line-height: 1.5em;
 }
 
+.centered {
+    text-align: center;
+    font-size: larger
+}
+
 .bottom-nav {
     margin: 33px auto ;
 }
