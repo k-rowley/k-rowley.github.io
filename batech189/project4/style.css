@@ -76,6 +76,7 @@ a:active {
 }
 
 img {
+    width: 33.3%;
     border: solid 3px var(--rule);
     float: left;
     margin: 0 10px 10px 0;
