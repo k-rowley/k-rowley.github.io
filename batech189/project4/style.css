@@ -61,7 +61,7 @@ a:hover {
 }
 a:active {
     color: red;
-    background-color: #faf8bd;
+    background-color: white;
 }
 
 .link-current-page {
